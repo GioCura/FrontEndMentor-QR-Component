@@ -24,8 +24,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: ![Solution URL](https://your-solution-url.com)
-- Live Site URL: ![Live Site URL](https://gc5-qrcomponent.netlify.app)
+- Solution URL: [Solution URL](https://your-solution-url.com)
+- Live Site URL: [Live Site URL](https://gc5-qrcomponent.netlify.app)
 
 ## My process
 
