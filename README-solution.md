@@ -57,4 +57,4 @@ Then, I focused on styling the card elements so that they will stay centered in 
 
 ## Author
 
-- Frontend Mentor - ![Frontend Mentor Account](https://www.frontendmentor.io/profile/GioCura)
+- Frontend Mentor - [Frontend Mentor Account](https://www.frontendmentor.io/profile/GioCura)
