@@ -39,7 +39,7 @@
         height: 100%;
       }
 
-      .cardbox {
+      main {
         height: 90%;
 
         display: flex;
@@ -60,29 +60,19 @@
         padding: 1.5rem 1.5rem 4rem;
       }
 
-      .card__imagebox {
-        width: 32.5rem;
-      }
-
       .card__image {
-        width: 100%;
+        width: 32.5rem;
         border-radius: 15px;
+        padding-bottom: 0.2rem;
       }
 
-      .card__headingbox {
-        display: flex;
-        flex-direction: column;
-        gap: 0.02rem;
-
-        font-size: 1.2rem;
+      .card__heading {
+        font-size: 2.4rem;
         font-weight: 700;
         color: hsl(218, 44%, 22%);
       }
 
-      .card__textbox {
-        display: flex;
-        flex-direction: column;
-
+      .card__text {
         font-size: 1.5rem;
         color: hsl(220, 15%, 55%);
       }
@@ -116,24 +106,22 @@
     </style>
   </head>
   <body>
-    <main class="cardbox">
+    <main>
       <div class="card">
-        <div class="card__imagebox">
-          <img
-            src="images/image-qr-code.png"
-            alt="An image of a QR code"
-            class="card__image"
-          />
-        </div>
-        <div class="card__headingbox">
-          <h1 class="card__heading">Improve your front-end</h1>
-          <h1 class="card__heading">skills by building projects</h1>
-        </div>
-        <div class="card__textbox">
-          <p class="card__text">Scan the QR code to visit Frontend</p>
-          <p class="card__text">Mentor and take your coding skills to</p>
-          <p class="card__text">the next level</p>
-        </div>
+        <img
+          src="images/image-qr-code.png"
+          alt="An image of a QR code"
+          class="card__image"
+        />
+        <h1 class="card__heading">
+          Improve your front-end<br />
+          skills by building projects<br />
+        </h1>
+        <p class="card__text">
+          Scan the QR code to visit Frontend<br />
+          Mentor and take your coding skills to<br />
+          the next level<br />
+        </p>
       </div>
     </main>
 
