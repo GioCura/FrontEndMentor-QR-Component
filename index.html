@@ -39,7 +39,7 @@
         height: 100%;
       }
 
-      .card-wrapper {
+      .cardbox {
         height: 90%;
 
         display: flex;
@@ -48,7 +48,7 @@
         justify-content: center;
       }
 
-      .card-container {
+      .card {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -60,16 +60,16 @@
         padding: 1.5rem 1.5rem 3rem;
       }
 
-      .img-container {
+      .card_imagebox {
         width: 32.5rem;
       }
 
-      img {
+      .card_image {
         width: 100%;
         border-radius: 15px;
       }
 
-      .heading-container {
+      .card_headingbox {
         display: flex;
         flex-direction: column;
         gap: 0.02rem;
@@ -79,7 +79,7 @@
         color: hsl(218, 44%, 22%);
       }
 
-      .text-container {
+      .card_textbox {
         display: flex;
         flex-direction: column;
 
@@ -116,17 +116,23 @@
     </style>
   </head>
   <body>
-    <main class="card-wrapper">
-      <div class="card-container">
-        <div class="img-container"><img src="images/image-qr-code.png" alt="An image of a QR code" /></div>
-        <div class="heading-container">
-          <h1>Improve your front-end</h1>
-          <h1>skills by building projects</h1>
+    <main class="cardbox">
+      <div class="card">
+        <div class="card_imagebox">
+          <img
+            src="images/image-qr-code.png"
+            alt="An image of a QR code"
+            class="card_image"
+          />
         </div>
-        <div class="text-container">
-          <p>Scan the QR code to visit Frontend</p>
-          <p>Mentor and take your coding skills to</p>
-          <p>the next level</p>
+        <div class="card_headingbox">
+          <h1 class="card_heading">Improve your front-end</h1>
+          <h1 class="card_heading">skills by building projects</h1>
+        </div>
+        <div class="card_textbox">
+          <p class="card_text">Scan the QR code to visit Frontend</p>
+          <p class="card_text">Mentor and take your coding skills to</p>
+          <p class="card_text">the next level</p>
         </div>
       </div>
     </main>
