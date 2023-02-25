@@ -17,12 +17,12 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Screenshots
 
-![Desktop Screenshot](images/screenshot-desktop.png)
-![Mobile Screenshot](images/screenshot-mobile.png)
+![](images/screenshot-desktop.png)
+![](images/screenshot-mobile.png)
 
 ### Links
 
-- Live Site URL: [Live Site URL](https://gc5-qrcomponent.netlify.app)
+- Live Site URL: [Live Site](https://gc5-qrcomponent.netlify.app)
 
 ## My process
 
@@ -33,6 +33,7 @@ Then, I focused on styling the card elements so that they will stay centered in 
 
 - HTML5
 - CSS3
+- (Update: 02/25/2023) - BEM
 
 ### What I learned
 
@@ -54,4 +55,4 @@ Then, I focused on styling the card elements so that they will stay centered in 
 
 ## Author
 
-- Frontend Mentor - [Frontend Mentor Account](https://www.frontendmentor.io/profile/GioCura)
+- Frontend Mentor - [@GioCura](https://www.frontendmentor.io/profile/GioCura)
