@@ -37,37 +37,31 @@
       body {
         background-color: hsl(212, 45%, 89%);
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
 
-      main,
       .card,
       .attribution {
         display: flex;
       }
 
-      main,
       .attribution {
         text-align: center;
-        justify-content: center;
-      }
-
-      main,
-      .card {
-        align-items: center;
-      }
-
-      main {
-        height: 90%;
       }
 
       .card {
         flex-direction: column;
+        align-items: center;
         gap: 2rem;
 
         background-color: hsl(0, 0%, 100%);
 
         border-radius: 15px;
         padding: 1.5rem 1.5rem 4rem;
+        margin-bottom: 4rem;
       }
 
       .card__image {
@@ -88,7 +82,6 @@
       }
 
       .attribution {
-        height: 5%;
         font-size: 1.1rem;
         align-items: flex-end;
       }
